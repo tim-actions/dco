@@ -22,7 +22,7 @@ async function main() {
       owner: repo.owner.login,
       repo: repo.name,
       pull_number: pr.number,
-    });
+    })
 
     const dcoFailed = await getDcoStatus(commits.data, () => true, pr.html_url)
     if (dcoFailed.length == 0) return
