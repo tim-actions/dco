@@ -1,0 +1,9 @@
+name: 'dco'
+description: 'A GitHub Actions tests that the proposed commits in the PR all include Developer Certificate of Origin (DCO) information'
+inputs:
+  token:
+    description: 'A token with access to your repository scoped in as a secret'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
