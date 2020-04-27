@@ -1,0 +1,9 @@
+name: 'dco-check'
+description: 'A GitHub Actions that verifies commits in pull-request all include Developer Certificate of Origin (DCO) information'
+inputs:
+  token:
+    description: 'A token with access to your repository scoped in as a secret'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
