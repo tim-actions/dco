@@ -7,6 +7,8 @@ const validEvent = ['pull_request']
 
 async function main() {
   try {
+    const { eventName, payload: {pull_request: pr} } = github.context
+
     if (validEvent.indexOf(eventName) < 0) {
       core.error(`Invalid event: ${eventName}`)
       return
