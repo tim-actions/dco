@@ -15,7 +15,7 @@ jobs:
     name: DCO Check
     steps:
     - name: DCO Check
-      uses: Tim-Zhang/dco@master
+      uses: tim-actions/dco@master
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
