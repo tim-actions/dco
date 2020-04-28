@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1",
     "email-validator": "^2.0.4"
   }
 }
