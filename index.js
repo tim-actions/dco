@@ -1,4 +1,5 @@
 const core = require('@actions/core')
+const github = require('@actions/github')
 
 const helper = require('./libs/helper.js')
 const getDcoStatus = require('./libs/dco.js')
