@@ -8,7 +8,7 @@ ${lines.join('\n')}
 
   What should I do to fix it ?
 
-  All proposed commits should include a Signed-Off-By: <your-email-address> line in their commit message.
+  All proposed commits should include a Signed-off-by: <your-name> <your-email-address> line in their commit message.
   This is most conveniently done by using --signoff (-s) when running git commit.`
 
   },
